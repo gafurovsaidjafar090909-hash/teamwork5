@@ -1,47 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
 
-  <div class="bg-[white] h-[80px] w-[100%] flex flex-row   justify-between items-center max-w-[1200px] m-auto p-[20px]">
-    <img src="./imgs/windom logo 5.png" alt="">
- 
-    <div class="lg:flex gap-[20px] hidden text-[13px] ">
-        <a href="">Наши проекты</a>
-        <a href="">Дома</a>
-        <a href="">Ипотека</a>
-        <a href="">О компании</a>
-        <a href="">Контакты</a>
+    <div
+        class="bg-[white] h-[80px] w-[100%] flex flex-row   justify-between items-center max-w-[1200px] m-auto p-[20px]">
+        <img src="./imgs/windom logo 5.png" alt="">
+
+        <div class="lg:flex gap-[20px] hidden text-[13px] ">
+            <a href="">Наши проекты</a>
+            <a href="">Дома</a>
+            <a href="">Ипотека</a>
+            <a href="">О компании</a>
+            <a href="">Контакты</a>
+        </div>
+        <div class=" lg:flex flex-row items-center gap-[30px] hidden">
+
+            <div class="flex flex-row items-center">
+
+                <img src="./imgs/ph_phone.png" alt="">
+                <p class="text-[15px]">+7 (962) 555-25-25</p>
+            </div>
+            <p class="text-[12px] p-[7px] pl-[14px] pr-[14px] border-1 border-[#EFA35A]">Заказать звонок</p>
+        </div>
+
+
+        <img class="lg:hidden" src="./imgs/image.png" alt="">
     </div>
-    <div class=" lg:flex flex-row items-center gap-[30px] hidden">
 
-    <div class="flex flex-row items-center">
-        
-        <img src="./imgs/ph_phone.png" alt="">
-        <p class="text-[15px]">+7 (962) 555-25-25</p>
-    </div>
-    <p class="text-[12px] p-[7px] pl-[14px] pr-[14px] border-1 border-[#EFA35A]">Заказать звонок</p>
-    </div>
-
-
-    <img class="lg:hidden" src="./imgs/image.png" alt="">
-  </div>
-
-<div class="bg-cover bg-center bg-no-repeat w-full lg:h-120 h-160"
+    <div class="bg-cover bg-center bg-no-repeat w-full lg:h-120 h-160"
         style="background-image: url('./imgs/Rectangle\ 139.png');">
 
         <div class="flex flex-col items-center p-[30px] pt-[150px]">
 
-            <h1 class="text-[50px] lg:text-[60px] text-[white] font-bold flex flex-col md:flex-row gap-[10px] lg:flex-row items-center ">ИПОТЕКА ОТ  <span class="text-[60px] font-extrabold text-[#EFA359] border-1 border-[white] p-[2px] pl-[10px] pr-[10px] text-center bg-[white]  "> 4%</span></h1> <br>
-            <p class="text-center text-[18px] md:text-[25px] lg:text-[20px] font-bold text-[white] md:pl-[100px] md:pr-[100px] lg:pl-[200px] lg:pr-[200px]">Уникальные ипотечные программы на специальных условиях. Всего шаг — до дома вашей мечты! </p> <br>
+            <h1
+                class="text-[50px] lg:text-[60px] text-[white] font-bold flex flex-col md:flex-row gap-[10px] lg:flex-row items-center ">
+                ИПОТЕКА ОТ <span
+                    class="text-[60px] font-extrabold text-[#EFA359] border-1 border-[white] p-[2px] pl-[10px] pr-[10px] text-center bg-[white]  ">
+                    4%</span></h1> <br>
+            <p
+                class="text-center text-[18px] md:text-[25px] lg:text-[20px] font-bold text-[white] md:pl-[100px] md:pr-[100px] lg:pl-[200px] lg:pr-[200px]">
+                Уникальные ипотечные программы на специальных условиях. Всего шаг — до дома вашей мечты! </p> <br>
             <p class="text-[white] bg-[#EFA359] p-[10px] pl-[20px] pr-[20px]">Расчитать платёж</p>
 
         </div>
+
+    </div>
+
+
+    <!-- section2 -->
+
+
+    <h1 class="p-[20px] text-[30px] font-bold lg:ml-[60px]">Ипотека</h1>
+
+    <div class="max-w-[100%] mx-auto p-6 bg-white lg:hidden">
+
+        <div class="flex gap-4">
+            <div class="flex-1">
+                <label class="block text-[18px] ">
+                    Вид недвижимости
+                </label>
+
+                <select class="w-[100%] h-[60px] bg-gray-100 px-4 ">
+                    <option>Все</option>
+                </select>
+            </div>
+
+            <div class="w-[130px]">
+                <label class="block text-[18px] ">
+                    Проект
+                </label>
+
+                <select class="w-full h-[60px] bg-gray-100 px-4 outline-none">
+                    <option>Все</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="mt-[20px]">
+            <label class="block text-[18px] ">
+                Вид ипотеки
+            </label>
+
+            <select class="w-full h-[60px] bg-gray-100 p-[10px] ">
+                <option>Все</option>
+            </select>
+        </div>
+
+        <div class="mt-10">
+            <h2 class="text-[18px] ">
+                Стоимость
+            </h2>
+
+            <div class="bg-gray-100 p-6">
+                <p class="text-[14px] ">3 000 000 ₽</p>
+
+
+            </div>
+        </div>
+
+        <div class="mt-[20px]">
+            <h2 class="text-[18px]">
+                Первоначальный взнос
+            </h2>
+
+            <div class="bg-gray-100  p-[20px]">
+                <p class="text-[14px]">2 000 000 ₽</p>
+
+
+            </div>
+        </div>
+
+        <div class="mt-[30px]">
+            <h2 class="text-[18px]">
+                Ежемесячный платёж
+            </h2>
+
+            <div class="bg-gray-100 p-[20px]">
+                <p class="text-[14px]">60 000 ₽</p>
+
+
+
+            </div>
+        </div>
+        <button
+            class="mt-10 w-[100%] h-[64px] bg-[#F4A34F] text-white text-[20px] font-semibold hover:bg-[#ea973f] duration-300">
+            Рассчитать платёж
+        </button>
+
+    </div>
+
+
+    <!-- not -->
+
+
+    <div class="lg:flex flex-row max-w-[1100px] m-auto gap-[30px] hidden items-center">
+
+  <div class="w-[50%]">
+
+
+        <div class="flex gap-4">
+            <div class="flex-1">
+                <label class="block text-[18px] ">
+                    Вид недвижимости
+                </label>
+
+                <select class="w-[100%] h-[60px] bg-gray-100 px-4 ">
+                    <option>Все</option>
+                </select>
+            </div>
+
+            <div class="w-[130px]">
+                <label class="block text-[18px] ">
+                    Проект
+                </label>
+
+                <select class="w-full h-[60px] bg-gray-100 px-4 outline-none">
+                    <option>Все</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="mt-[20px]">
+            <label class="block text-[18px] ">
+                Вид ипотеки
+            </label>
+
+            <select class="w-full h-[60px] bg-gray-100 p-[10px] ">
+                <option>Все</option>
+            </select>
+        </div>
+
+        <div class="mt-10">
+            <h2 class="text-[18px] ">
+                Стоимость
+            </h2>
+
+            <div class="bg-gray-100 p-6">
+                <p class="text-[14px] ">3 000 000 ₽</p>
+
+
+            </div>
+        </div>
+
+        <div class="mt-[20px]">
+            <h2 class="text-[18px]">
+                Первоначальный взнос
+            </h2>
+
+            <div class="bg-gray-100  p-[20px]">
+                <p class="text-[14px]">2 000 000 ₽</p>
+
+
+            </div>
+        </div>
+
+        <div class="mt-[30px]">
+            <h2 class="text-[18px]">
+                Ежемесячный платёж
+            </h2>
+
+            <div class="bg-gray-100 p-[20px]">
+                <p class="text-[14px]">60 000 ₽</p>
+
+
+
+            </div>
+        </div>
+        <button
+            class="mt-10 w-[100%] h-[64px] bg-[#F4A34F] text-white text-[20px] font-semibold hover:bg-[#ea973f] duration-300">
+            Рассчитать платёж
+        </button>
+
+  
+
+  </div>
+        
+
+ <div class="flex-col">
+
+     <div class="lg:flex lg:flex-row gap-[30px]">
+
+         <div class="bg-[white] h-[300px] w-[250px] border-1 p-[30px]">
+            
+            <div class="flex items-center gap-[5px]">
+             <img class="h-[15px]" src="./imgs/Vector (36).png" alt="">
+             <p class="font-bold">АО “Альфа банк”</p>
+            </div> <br>
+            <p class="text-[14px] text-[#353535]">Ставка</p>
+            <p class="font-bold text-[30px]">4,1 %</p>
+            <p class="text-[15px]">от 4 000 / мес </p>
+            <p class="mt-[10px] text-[14px] text-[#353535]">Программа</p>
+            <p class="mt-[10px]">Семейная</p>
+             
+        </div>
+        <div class="bg-[white] h-[300px] w-[250px] border-1 p-[30px]">
+
+              <div class="flex items-center gap-[5px]">
+             <img class="h-[15px]" src="./imgs/Vector (37).png" alt="">
+             <p class="font-bold">Банк ВТБ (ПАО)</p>
+            </div> <br>
+            <p class="text-[14px] text-[#353535]">Ставка</p>
+            <p class="font-bold text-[30px]">6 %</p>
+            <p class="text-[15px]">от 4 000 / мес </p>
+            <p class="mt-[10px] text-[14px] text-[#353535]">Господдержка</p>
+            <p class="mt-[10px]">Семейная</p>
+             
+            
+        </div>
+    </div> <br>
+    <div class="flex-col">
+
+     <div class="lg:flex lg:flex-row gap-[30px]">
+
+         <div class="bg-[#F2F2F2] h-[300px] w-[250px] border-1 p-[30px]">
+
+               
+            <div class="flex items-center gap-[5px]">
+             <img class="h-[15px]" src="./imgs/Group 209 (1).png" alt="">
+             <p class="font-bold">ПАО Сбербанк</p>
+            </div> <br>
+            <p class="text-[14px] text-[#353535]">Ставка</p>
+            <p class="font-bold text-[30px]">4 %</p>
+            <p class="text-[15px]">от 4 000 / мес </p>
+            <p class="mt-[10px] text-[14px] text-[#353535]">Программа</p>
+            <p class="mt-[10px]">IT специалистам</p>
+             
+             
+        </div>
+        <div class="bg-[white] h-[300px] w-[250px] border-1 p-[30px] ">
+             
+               <div class="flex items-center gap-[5px]">
+             <img class="h-[15px]" src="./imgs/sovcombank-svgrepo-com 1.png" alt="">
+             <p class="font-bold">ПАО “Совкомбанк”</p>
+            </div> <br>
+            <p class="text-[14px] text-[#353535]">Ставка</p>
+            <p class="font-bold text-[30px]">4 %</p>
+            <p class="text-[15px]">от 4 000 / мес </p>
+            <p class="mt-[10px] text-[14px] text-[#353535]">Программа</p>
+            <p class="mt-[10px]">Семейная</p>
+             
+      
+
+        </div>
+    </div>
 </div>
+
+  </div>
 </body>
+
 </html>
