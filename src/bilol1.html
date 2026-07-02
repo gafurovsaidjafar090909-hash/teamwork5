@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+
+
+    <div
+        class="bg-[white] h-[80px] w-[100%] flex flex-row   justify-between items-center max-w-[1200px] m-auto p-[20px] items-center">
+        <img src="./imagebilol/image.png" alt="">
+
+        <div class="lg:flex gap-[20px]  text-[13px] ">
+            <a href="#">Наши проекты</a>
+            <a href="#">Дома</a>
+            <a href="#">Ипотека</a>
+            <a href="#">О компании</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div class=" lg:flex flex-row items-center gap-[30px] hidden">
+
+            <div class="flex flex-row items-center">
+
+                <img src="./imagebilol/image copy.png" alt="">
+                <p class="text-[15px]">+7 (962) 555-25-25</p>
+            </div>
+            <p class="text-[12px] p-[7px] pl-[14px] pr-[14px] border-1 border-[#EFA35A]">Заказать звонок</p>
+        </div>
+
+
+        <img class="lg:hidden" src="./imgs/image.png" alt="">
+    </div>
+
+
+
+
+    <main
+        class="relative bg-neutral-800 bg-cover bg-center  flex items-center py-12 md:py-20 lg:py-0 min-h-[calc(100vh-4rem)] sm:min-h-[calc(100vh-5rem)]"
+        style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('./imagebilol/image\ copy\ 2.png');">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 text-center">
+
+            <h1
+                class="text-white font-extrabold tracking-tight uppercase leading-none mb-6 text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+                Ипотека от
+                <span
+                    class="inline-block bg-white text-amber-600 px-3 py-1 sm:px-5 sm:py-2 rounded ml-1 sm:ml-3 transform -rotate-1 shadow-lg align-middle">
+                    4%
+                </span>
+            </h1>
+
+            <div
+                class="max-w-xl md:max-w-2xl mx-auto space-y-2 sm:space-y-3 text-gray-200 text-sm sm:text-base md:text-lg lg:text-xl font-normal drop-shadow-md">
+                <p>Уникальные ипотечные программы на специальных условиях.</p>
+                <p>Просто заполните анкету и получите одобрение.</p>
+                <p class="font-semibold text-white">Всего шаг — до дома вашей мечты!</p>
+            </div>
+
+            <div class="mt-8 sm:mt-10 md:mt-12">
+                <button
+                    class="w-full sm:w-auto bg-amber-500 hover:bg-amber-600 text-white font-bold px-8 py-3.5 sm:py-4 rounded-md shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0 text-sm sm:text-base tracking-wide uppercase">
+                    Рассчитать платёж
+                </button>
+            </div>
+
+        </div>
+
+        <div
+            class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-black/20 to-transparent pointer-events-none">
+        </div>
+
+
+
+
+    </main>
+
+
+    <section class="max-w-7xl mx-auto px-4 py-8 sm:py-12 md:py-16 bg-white font-sans text-gray-900">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold uppercase tracking-tight mb-6 sm:mb-8 md:mb-12">
+            Ипотека
+        </h2>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+
+            <form class="lg:col-span-5 space-y-5 sm:space-y-6" onsubmit="event.preventDefault();">
+
+                <div class="grid grid-cols-2 gap-3 sm:gap-4">
+                    <div>
+                        <label class="block text-xs sm:text-sm font-medium text-gray-800 mb-1.5 sm:mb-2">Вид
+                            недвижимости</label>
+                        <div class="relative">
+                            <select
+                                class="w-full bg-gray-50 border border-transparent rounded px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm focus:bg-white focus:border-gray-300 focus:outline-none appearance-none cursor-pointer">
+                                <option>Все</option>
+                            </select>
+                            <span
+                                class="absolute right-3 sm:right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[10px] sm:text-xs text-gray-500">▼</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs sm:text-sm font-medium text-gray-800 mb-1.5 sm:mb-2">Проект</label>
+                        <div class="relative">
+                            <select
+                                class="w-full bg-gray-50 border border-transparent rounded px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm focus:bg-white focus:border-gray-300 focus:outline-none appearance-none cursor-pointer">
+                                <option>Все</option>
+                            </select>
+                            <span
+                                class="absolute right-3 sm:right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[10px] sm:text-xs text-gray-500">▼</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs sm:text-sm font-medium text-gray-800 mb-1.5 sm:mb-2">Вид ипотеки</label>
+                    <div class="relative">
+                        <select
+                            class="w-full bg-gray-50 border border-transparent rounded px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm focus:bg-white focus:border-gray-300 focus:outline-none appearance-none cursor-pointer">
+                            <option>Все</option>
+                        </select>
+                        <span
+                            class="absolute right-3 sm:right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[10px] sm:text-xs text-gray-500">▼</span>
+                    </div>
+                </div>
+
+                <div class="relative pb-2">
+                    <label class="block text-xs sm:text-sm font-medium text-gray-800 mb-1.5 sm:mb-2">Стоимость</label>
+                    <input type="text" value="3 000 000 ₽"
+                        class="w-full bg-gray-50 rounded px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm font-medium focus:outline-none"
+                        readonly>
+                    <input type="range" min="1000000" max="30000000" value="3000000"
+                        class="absolute bottom-0 left-0 w-full h-[2px] accent-amber-500 appearance-none bg-gray-200 cursor-pointer">
+                </div>
+
+                <div class="relative pb-2">
+                    <label class="block text-xs sm:text-sm font-medium text-gray-800 mb-1.5 sm:mb-2">Первоначальный
+                        взнос</label>
+                    <input type="text" value="2 000 000 ₽"
+                        class="w-full bg-gray-50 rounded px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm font-medium focus:outline-none"
+                        readonly>
+                    <input type="range" min="0" max="10000000" value="2000000"
+                        class="absolute bottom-0 left-0 w-full h-[2px] accent-amber-500 appearance-none bg-gray-200 cursor-pointer">
+                </div>
+
+                <div class="relative pb-2">
+                    <label class="block text-xs sm:text-sm font-medium text-gray-800 mb-1.5 sm:mb-2">Ежемесячный
+                        платёж</label>
+                    <input type="text" value="60 000 ₽"
+                        class="w-full bg-gray-50 rounded px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm font-medium focus:outline-none"
+                        readonly>
+                    <input type="range" min="10000" max="500000" value="60000"
+                        class="absolute bottom-0 left-0 w-full h-[2px] accent-amber-500 appearance-none bg-gray-200 cursor-pointer">
+                </div>
+
+                <div class="pt-2">
+                    <button type="submit"
+                        class="w-full bg-amber-500 hover:bg-amber-600 text-white font-medium py-3 sm:py-3.5 px-4 rounded text-xs sm:text-sm transition shadow-md active:translate-y-[1px]">
+                        Рассчитать платёж
+                    </button>
+                </div>
+            </form>
+
+            <div class="  lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4  ">
+
+                <div
+                    class="border border-gray-200 rounded p-5 sm:p-6 flex flex-col justify-between min-h-[190px] sm:min-h-[220px]">
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="w-5 h-5 bg-red-600 rounded-sm flex items-center justify-center text-white text-[10px] font-bold">
+                            А</div>
+                        <h4 class="font-bold text-sm">АО "Альфа банк"</h4>
+                    </div>
+                    <div class="my-3 sm:my-4">
+                        <span class="block text-[10px] sm:text-xs text-gray-400 mb-0.5">Ставка</span>
+                        <span class="text-xl sm:text-3xl font-extrabold text-gray-900">4,1 %</span>
+                    </div>
+                    <div class="space-y-0.5">
+                        <p class="text-xs sm:text-sm font-semibold text-gray-800">от 4 000 ₽ / мес</p>
+                        <p class="text-[10px] sm:text-xs text-gray-400">Программа <span
+                                class="block text-gray-700 font-medium text-xs sm:text-sm mt-0.5">Семейная</span></p>
+                    </div>
+                </div>
+
+                <div
+                    class="border border-gray-200 rounded p-5 sm:p-6 flex flex-col justify-between min-h-[190px] sm:min-h-[220px]">
+                    <div class="flex items-center gap-3">
+                        <div class="w-5 h-5 bg-blue-800 rounded-sm flex flex-col justify-between p-[2px]">
+                            <div class="h-[2px] bg-white w-full"></div>
+                            <div class="h-[2px] bg-white w-full"></div>
+                            <div class="h-[2px] bg-white w-full"></div>
+                        </div>
+                        <h4 class="font-bold text-sm">Банк ВТБ (ПАО)</h4>
+                    </div>
+                    <div class="my-3 sm:my-4">
+                        <span class="block text-[10px] sm:text-xs text-gray-400 mb-0.5">Ставка</span>
+                        <span class="text-xl sm:text-3xl font-extrabold text-gray-900">6 %</span>
+                    </div>
+                    <div class="space-y-0.5">
+                        <p class="text-xs sm:text-sm font-semibold text-gray-800">от 4 000 ₽ / мес</p>
+                        <p class="text-[10px] sm:text-xs text-gray-400">Программа <span
+                                class="block text-gray-700 font-medium text-xs sm:text-sm mt-0.5">Господдержка</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-gray-50 border border-transparent rounded p-5 sm:p-6 flex flex-col justify-between min-h-[190px] sm:min-h-[220px]">
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="w-5 h-5 bg-green-600 rounded-full flex items-center justify-center text-white text-[10px]">
+                            ✔</div>
+                        <h4 class="font-bold text-sm">ПАО Сбербанк</h4>
+                    </div>
+                    <div class="my-3 sm:my-4">
+                        <span class="block text-[10px] sm:text-xs text-gray-400 mb-0.5">Ставка</span>
+                        <span class="text-xl sm:text-3xl font-extrabold text-gray-900">4 %</span>
+                    </div>
+                    <div class="space-y-0.5">
+                        <p class="text-xs sm:text-sm font-semibold text-gray-800">от 4 000 ₽ / мес</p>
+                        <p class="text-[10px] sm:text-xs text-gray-400">Программа <span
+                                class="block text-gray-700 font-medium text-xs sm:text-sm mt-0.5">IT специалистам</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="border border-gray-200 rounded p-5 sm:p-6 flex flex-col justify-between min-h-[190px] sm:min-h-[220px]">
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="w-5 h-5 border-2 border-blue-900 rounded-full flex items-center justify-center text-blue-950 text-[9px] font-black">
+                            C</div>
+                        <h4 class="font-bold text-sm">ПАО "Совкомбанк"</h4>
+                    </div>
+                    <div class="my-3 sm:my-4">
+                        <span class="block text-[10px] sm:text-xs text-gray-400 mb-0.5">Ставка</span>
+                        <span class="text-xl sm:text-3xl font-extrabold text-gray-900">4 %</span>
+                    </div>
+                    <div class="space-y-0.5">
+                        <p class="text-xs sm:text-sm font-semibold text-gray-800">от 4 000 ₽ / мес</p>
+                        <p class="text-[10px] sm:text-xs text-gray-400">Программа <span
+                                class="block text-gray-700 font-medium text-xs sm:text-sm mt-0.5">Семейная</span></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    Ali Abubakr C++/HTML/CSS, [02.07.2026 13:22]
+    <section class="w-full overflow-x-hidden py-12">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <div class="space-y-5">
+
+                <div class="bg-[#f5f5f5] flex flex-col lg:flex-row">
+
+                    <div class="w-full lg:w-[58%] p-6 lg:p-10 flex flex-col justify-between">
+
+                        <div>
+                            <h2 class="text-3xl lg:text-5xl font-bold uppercase mb-5">
+                                ИПОТЕЧНЫЕ КРЕДИТЫ
+                            </h2>
+
+                            <p class="text-gray-600 leading-7">
+                                Выгодная ипотечная программа и специальные условия.
+                                Просто заполните анкету и получите одобрение.
+                                Всего один шаг, и дом вашей мечты станет ближе.
+                            </p>
+                        </div>
+
+                        <button
+                            class="mt-8 border border-[#d79b62] px-5 py-2 text-sm hover:bg-[#d79b62] hover:text-white duration-300 w-fit">
+                            Рассчитать платёж
+                        </button>
+
+                    </div>
+
+                    <img src="./imagebilol/image copy 3.png" alt=""
+                        class="w-full lg:w-[42%] h-64 lg:h-auto object-cover">
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+                    <div class="bg-[#f5f5f5] flex flex-col sm:flex-row">
+
+                        <div class="w-full sm:w-1/2 p-6 flex flex-col justify-between">
+
+                            <div>
+                                <h3 class="text-2xl lg:text-4xl font-bold uppercase mb-4">
+                                    СЕМЕЙНАЯ ИПОТЕКА
+                                </h3>
+
+                                <p class="text-gray-600 leading-6">
+                                    Воспользоваться программой можно при рождении
+                                    первого ребёнка и других условиях.
+                                </p>
+                            </div>
+
+                            <button
+                                class="mt-6 border border-[#d79b62] px-5 py-2 text-sm hover:bg-[#d79b62] hover:text-white duration-300 w-fit">
+                                Рассчитать платёж
+                            </button>
+
+                        </div>
+
+                        <img src="./imagebilol/image copy 4.png" alt=""
+                            class="w-full sm:w-1/2 h-64 sm:h-auto object-cover">
+
+                    </div>
+
+                    <div class="bg-[#f5f5f5] flex flex-col sm:flex-row">
+
+                        <div class="w-full sm:w-1/2 p-6 flex flex-col justify-between">
+
+                            <div>
+                                <h3 class="text-2xl lg:text-4xl font-bold uppercase mb-4">
+                                    ГОСПОДДЕРЖКА 2023
+                                </h3>
+
+                                <p class="text-gray-600 leading-6">
+                                    Государственная поддержка для покупки жилья
+                                    на льготных условиях.
+                                </p>
+                            </div>
+
+                            <button
+                                class="mt-6 border border-[#d79b62] px-5 py-2 text-sm hover:bg-[#d79b62] hover:text-white duration-300 w-fit">
+                                Рассчитать платёж
+                            </button>
+
+                        </div>
+
+                        <img src="./imagebilol/image copy 4.png" alt=""
+                            class="w-full  sm:w-1/2 h-64 sm:h-auto object-cover">
+
+                    </div>
+
+                </div>
+
+                <div class="bg-[#f5f5f5] flex flex-col lg:flex-row">
+
+                    <div class="w-full lg:w-[58%] p-6 lg:p-10 flex flex-col justify-between">
+
+                        <div>
+                            <h2 class="text-3xl lg:text-5xl font-bold uppercase mb-5">
+                                IT СПЕЦИАЛИСТАМ
+                            </h2>
+
+                            <p class="text-gray-600 leading-7">
+                                Ипотека по сниженной ставке для сотрудников
+                                аккредитованных IT-компаний.
+                            </p>
+                        </div>
+
+                        <button
+                            class="mt-8 border border-[#d79b62] px-5 py-2 text-sm hover:bg-[#d79b62] hover:text-white duration-300 w-fit">
+                            Рассчитать платёж
+                        </button>
+
+                    </div>
+
+                    <img src="./imagebilol/image copy 5.png" alt=""
+                        class="w-full lg:w-[42%] h-64 lg:h-auto object-cover">
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <div class="flex items-center justify-between mb-8">
+
+                <h2 class="text-3xl md:text-4xl font-bold uppercase">
+                    Ответы на <span class="text-[#d79b62]">вопросы</span>
+                </h2>
+
+                <button
+                    class="hidden md:block px-5 py-2 bg-[#d79b62] text-white text-sm hover:bg-[#c88a4f] duration-300">
+                    Переключите меню
+                </button>
+
+            </div>
+
+            <div class="space-y-4">
+
+                <div class="group bg-[#f5f5f5]">
+
+                    <div class="pr-5">
+                        <h3 class="text-xl font-semibold">
+                            Можно ли использовать материнский капитал для первоначального взноса?
+                        </h3>
+                    </div>
+
+                    <div
+                        class="w-10 h-10 rounded-full bg-white flex items-center justify-center shrink-0 transition group-open:rotate-180">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 15l6-6 6 6" />
+                        </svg>
+                    </div>
+
+
+                    <div class="px-6 pb-6 text-gray-600 leading-7">
+                        Да, возможно. Если средств материнского капитала не хватает для первоначального взноса, то вы
+                        можете добавить собственные средства.
+                    </div>
+
+                    <div class="px-6 pb-6 text-gray-600 leading-7">
+                        После рассмотрения пакета документов банк рассчитывает сумму кредита, который он может выдать на
+                        данных условиях. После этого возможны два варианта:
+                    </div>
+
+                    <div class="px-6 pb-6 text-gray-600 leading-7">
+                        — увеличение максимальной суммы кредита на величину материнского капитала с автоматическим
+                        уменьшением первоначального взноса;
+                    </div>
+                </div>
+
+                <div class="group bg-[#f5f5f5]">
+
+                    <h3 class="text-xl font-semibold pr-5">
+                        Нужно ли привозить бумажные документы или все можно отправить электронно?
+                    </h3>
+
+                    <div
+                        class="w-10 h-10 rounded-full bg-white flex items-center justify-center shrink-0 transition group-open:rotate-180">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 15l6-6 6 6" />
+                        </svg>
+                    </div>
+
+
+                    <div class="px-6 pb-6 text-gray-600 leading-7">
+                        Большинство документов можно загрузить онлайн через личный кабинет.
+                    </div>
+                </div>
+
+                <div class="group bg-[#f5f5f5]">
+
+                    <h3 class="text-xl font-semibold pr-5">
+                        Есть ли требования к гражданству?
+                    </h3>
+
+                    <div
+                        class="w-10 h-10 rounded-full bg-white flex items-center justify-center shrink-0 transition group-open:rotate-180">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 15l6-6 6 6" />
+                        </svg>
+                    </div>
+
+
+                    <div class="px-6 pb-6 text-gray-600 leading-7">
+                        Требования зависят от выбранной программы ипотечного кредитования.
+                    </div>
+                </div>
+
+                <div class="group bg-[#f5f5f5]">
+
+                    <h3 class="text-xl font-semibold pr-5">
+                        Я работаю неофициально. Есть ли шанс получить ипотеку?
+                    </h3>
+
+
+                    <div
+                        class="w-10 h-10 rounded-full bg-white flex items-center justify-center shrink-0 transition group-open:rotate-180">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M6 15l6-6 6 6" />
+                        </svg>
+                    </div>
+
+
+                    <div class="px-6 pb-6 text-gray-600 leading-7">
+                        Да, некоторые банки рассматривают заявки без официального трудоустройства при соблюдении других
+                        условий.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    Muhammad Nozilshoev, [02.07.2026 13:42]
+    <div class="w-full bg-[#323232] py-16">
+        <div class="lg:max-w-[1200px] max-w-[90%] m-auto">
+
+            <div class="flex flex-col lg:flex-row justify-between gap-10">
+
+                <div>
+                    <h2 class="text-white text-[30px] font-semibold mb-6">
+                        О КОМПАНИИ
+                    </h2>
+
+                    <div class="w-[120px] h-[2px] bg-[#EFA359] mb-6"></div>
+
+                    <div class="flex flex-col gap-3 text-white text-[18px]">
+                        <p>Главная</p>
+                        <p>Наша команда</p>
+                        <p>СМИ о нас</p>
+                        <p>Отзывы</p>
+                        <p>Новости</p>
+                        <p>Контакты</p>
+                    </div>
+
+                    <p class="text-[#BDBDBD] text-[14px] mt-10">
+                        Политика конфиденциальности
+                    </p>
+                </div>
+
+
+                <div>
+                    <h2 class="text-white text-[30px] font-semibold mb-6">
+                        ПРОЕКТЫ
+                    </h2>
+
+                    <div class="w-[120px] h-[2px] bg-[#EFA359] mb-6"></div>
+
+                    <div class="flex flex-col gap-3 text-white text-[18px]">
+                        <p>Изумрудный Village</p>
+                        <p>Зимняя горка</p>
+                        <p>Константиновка</p>
+                        <p>Усады Village</p>
+                        <p>IQ-CLUB</p>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="text-white text-[30px] font-semibold mb-6">
+                        ИПОТЕКА
+                    </h2>
+
+                    <div class="w-[120px] h-[2px] bg-[#EFA359] mb-6"></div>
+
+                    <div class="flex flex-col gap-3 text-white text-[18px]">
+                        <p>Ипотечные кредиты</p>
+                        <p>Для семей с детьми</p>
+                        <p>Военная ипотека</p>
+                        <p>Господдержка 2023</p>
+                    </div>
+                </div>
+
+
+                <div class="flex flex-col gap-6">
+                    <img src="./imagebilol/image copy 6.png" alt="" class="w-[220px]">
+
+                    <img src="./imagebilol/image copy 7.png" alt="" class="w-[220px]">
+
+                    <div class="border border-[#5C5C5C] px-4 py-3 w-fit">
+                        <p class="text-white text-[14px]">
+                            windom.kazan@gmail.com
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
